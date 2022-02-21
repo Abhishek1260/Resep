@@ -1,0 +1,43 @@
+.Heading2 {
+    height : 15vh;
+    width : 100%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    flex-direction: column;
+}
+
+.title2 {
+    flex : 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size : 33px;
+    height : 20vh;
+    width : 100%;
+    font-weight: bold;
+}
+
+.underline1 {
+    width : 170px;
+    height : 10px;
+    background-color :rgba(0, 0, 0, 0.822);
+    border-radius : 20px 0px 0px 20px;
+}
+
+.underline2 {
+    width : 30px;
+    height : 10px;
+    background-color :rgb(252, 74, 74);
+    border-radius : 0px 20px 20px 0px;
+}
+
+.underline {
+    display : flex;
+    flex-direction: row;
+    justify-content : center;
+    align-items: center;
+}

@@ -1,0 +1,53 @@
+.cards {
+    height : 300px;
+    width : 200px;
+    display :inline-block;
+    margin : 0px 20px;
+}
+
+.cardsinner {
+    justify-content: center;
+    align-items: center;
+    height : 100%;
+    width : 200px;
+    display : flex;
+    border-radius :10px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.wrapper {
+    width : 90%;
+    margin : auto;
+}
+
+.image {
+    /* background-color: rgb(255, 146, 146); */
+    height : 50%;
+    width : 90%;
+    border-radius : 10px;
+    margin : auto;
+}
+
+.photo1 {
+    margin-top : 0px;
+    height : 100% ;
+    width : 100%;
+    z-index: 2;
+    background-color: white;
+    box-shadow: none;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper2 {
+    width : 90%;
+    height : 90%;
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

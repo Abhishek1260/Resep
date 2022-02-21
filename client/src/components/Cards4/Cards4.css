@@ -1,0 +1,48 @@
+.Cards4 {
+    border : 1px solid rgba(0, 0, 0, 0.1);
+    width : 300px;
+    border-radius: 20px;
+    height : 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+    margin : 20px;
+}
+
+.Cards4:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.wrapper46 {
+    width : 90%;
+    margin : auto;
+    height : 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.image46 {
+    background-color: rgb(255, 146, 146);
+    width : 100%;
+    height : 50%;
+    border-radius: 20px;
+}
+
+.productName22 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.productStatus {
+    border-radius: 10px;
+    padding : 10px 20px;
+    color : limegreen;
+    background-color: rgba(50, 205, 50, 0.1);
+}
+
+.price22 {
+    font-size : 17px;
+    font-weight: bold;
+}

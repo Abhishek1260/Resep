@@ -1,0 +1,18 @@
+.CartWidget {
+    position: fixed;
+    bottom : 10px;
+    right : 10px;
+    height : 70px;
+    width: 70px;
+    background-color: rgb(21, 58, 91);
+    clip-path: circle(100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.SVGforCart {
+    fill : white;
+    transform: scale(1.2 , 1.2);
+}

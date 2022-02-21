@@ -1,0 +1,28 @@
+.section2 {
+    height : 45vh;
+    width : 100%;
+    margin : auto;
+    overflow-x: hidden;
+}
+
+.cardContainer3 {
+    height : 100%;
+    display : flex;
+    align-items: center;
+}
+
+.cardContainer4 {
+    height : 100%;
+    display : flex;
+    justify-content: center;
+    margin : auto;
+}
+
+.card2Nav {
+    display : none;
+}
+
+.nextNav {
+    right : 0%;
+}
+

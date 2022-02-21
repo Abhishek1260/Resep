@@ -1,0 +1,56 @@
+.CheckoutCardForm {
+    margin : 20px 10px 20px 20px;
+  width: 410px;
+  height: 200px;
+  background-image: linear-gradient(
+    rgba(255, 61, 61, 1),
+    rgba(255, 61, 61, 0.8)
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px #707070;
+}
+
+.wrapper316 {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: white; */
+}
+
+.CheckoutDetailsAdddiv {
+    margin : 10px 0px 10px 0px;
+}
+
+.MMYYINPUT {
+    width : 100px;
+}
+
+.wrapper317 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper318 {
+    height : fit-content ;
+    width: fit-content;
+}
+
+.CheckoutDetailsAdd {
+    border-radius: 10px;
+    font-size : 15px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom: none;
+    color : white;
+    caret-color: black;
+}
+
+.CheckoutDetailsAdd::placeholder {
+    color : white
+}

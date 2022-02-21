@@ -1,0 +1,78 @@
+.sellerRegister {
+    height : 100vh;
+    width : 100%;
+    position: absolute;
+    z-index: 10;
+}
+
+.overlay123 {
+    height : 100%;
+    width : 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SellerLoginPage {
+    border-radius: 5px;
+    background-color: white;
+    width : 60%;
+    height : 80%;
+    display: flex;
+}
+
+.SellerLoginPageLeftSide {
+    background-color: rgb(21, 58, 91);
+    width : 30%;
+    height : 100%;
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SellerLoginPageRightSide {
+    background-color: white;
+    width : 70%;
+    height : 100%;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.SellerLoginPageLeftSideTop {
+    color : white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.SellerLoginPageLeftSideMid {
+    color : white;
+    font-size: 16px;
+}
+
+.SellerLoginPageRightSide {
+    display : flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.buttonForSignUprealOne {
+    color : White;
+    padding : 10px 20px;
+    background-color: rgb(21, 58, 91);
+    border-radius: 5px;
+}
+
+.buttonForSignUp {
+    margin-bottom: 20px;
+}
+
+.SellerSignUp {
+    display : block;
+}
+
+.wrapper300 {
+    width : 90%;
+    height : 70%;
+}

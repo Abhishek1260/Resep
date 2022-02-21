@@ -1,0 +1,30 @@
+.Checkout {
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper314 {
+    width : 90%;
+    height : 90%;
+    overflow-x: hidden;
+}
+
+.SavedCardsCheckoutCards {
+    display: none
+}
+
+.SavedCardsCheckoutCardsCards {
+    display: flex;
+}
+
+.SavedCardsCheckoutHeading , .NewCardCheckoutHeading{
+    font-size : 24px;
+    font-weight: bold;
+    color : rgba(0, 0, 0, 0.7);
+}
+
+.wrapper315 {
+    display: flex;
+}

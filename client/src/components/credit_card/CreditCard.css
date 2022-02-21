@@ -1,0 +1,58 @@
+.Container24 {
+  height: 200px;
+  width: 410px;
+  background-image: linear-gradient(
+    rgba(255, 61, 61, 1),
+    rgba(255, 61, 61, 0.8)
+  );
+  border-radius: 20px;
+  color: white;
+  margin: 20px;
+  font-size: 16px;
+  box-shadow: 2px 2px 20px #707070;
+  display : flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card {
+     fill : White;
+}
+
+.top_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.monthCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom_card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper40 {
+    height: 100%;
+    width : 90%;
+    margin : auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+} 
+
+.style {
+    fill : white;
+}

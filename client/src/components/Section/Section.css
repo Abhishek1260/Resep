@@ -1,0 +1,53 @@
+.section1 {
+    height : 45vh;
+    /* background-color: black; */
+    width : 100%;
+    margin : auto;
+    /* display: flex;
+    justify-content: space-between; */
+    display : block;
+    overflow-x: hidden;
+
+}
+
+.container2 {
+    height : 100%;
+    display : flex;
+    align-items : center;
+    width: fit-content;
+}
+
+.NavButton {
+    position : absolute;
+    font-size : 30px;
+    color : rgba(0, 0, 0, 0.432);
+    transform : translate(0 , -50%)
+}
+
+.prevNav {
+    left : 0%;
+    padding : 25px 10px;
+    border-radius: 0px 10px 10px 0px;
+    transition : all 0.5s;
+    display : none;
+}
+
+.nextNav {
+    right : 0%;
+    padding : 25px 10px;
+    border-radius: 10px 0px 0px 10px;
+    transition : all 0.5s;
+}
+
+
+.nextNav:hover , .prevNav:hover {
+    background-color : rgba(0, 0, 0, 0.732);
+    color : rgb(255, 255, 255);
+}
+
+.cardsContainer {
+    height : 100%;
+    display : flex;
+    flex-direction:row;
+    transform: translateX(-0px);
+}

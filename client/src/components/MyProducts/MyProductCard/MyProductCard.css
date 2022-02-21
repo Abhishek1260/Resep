@@ -1,0 +1,84 @@
+.MyProductCard {
+    width : 250px;
+    height : 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.wrapper310 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height : 90%;
+}
+
+.MyProductMainImage {
+    width : 100%;
+    height : 50%;
+    background-color: blue;
+}
+
+.wrapper312 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper311 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.MyProductName {
+    font-size: 20px;
+    color : rgba(0 , 0 , 0 , 0.7);
+    font-weight: bold;
+}
+
+.MyProductRating {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.MyProductPrice {
+    color : rgba(0 , 0 , 0 , 0.6);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.MyProductReviews {
+    color : rgba(0 , 0 , 0 , 0.7);
+    font-weight : bold;
+    font-size : 18px;
+}
+
+.MyProductConditionspan {
+    font-weight: bold;
+    border-radius: 3px;
+    color : limegreen;
+    padding : 5px 10px;
+    background-color: rgba(50, 205, 50, 0.2);
+}
+
+.MyProductRating {
+    font-weight: bold;
+    border-radius: 3px;
+    color : limegreen;
+    padding : 5px 5px;
+    background-color: rgba(50, 205, 50, 0.2);
+    margin : 5px 0px;
+    fill : limegreen;
+}
+
+.MyProductStar {
+    fill : limegreen
+}
+
+.wrapper311 {
+    display: flex;
+    align-items: center;
+}

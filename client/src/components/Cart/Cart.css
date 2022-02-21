@@ -1,0 +1,11 @@
+.cartCards {
+    width : 90%;
+    margin-top : 50px;
+}
+
+.Cart {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}

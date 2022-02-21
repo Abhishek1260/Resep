@@ -1,0 +1,99 @@
+.carosel1 {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageForCaro2 {
+  height : 100%;
+  width : 100%; 
+  border : none;
+  box-shadow: none;
+}
+
+.caro1 {
+  width: 70%;
+  height: 80%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; 
+  border-radius: 10px;
+}
+
+.leftSide1 {
+  width: 50%;
+  background-color: white;
+  animation: fade 1.5s;
+  border : none;
+  border-radius: 10px 0px 0px 10px;
+  display : flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightSide1 {
+  width: 50%;
+  animation: fade 1.5s;
+}
+
+.object1 {
+  font-weight: 700;
+  font-size: 20px;
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.para2 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.highLights {
+  color: #0096ff;
+}
+
+.para2Wrap {
+  padding: 20px 0px;
+}
+
+.none {
+  display: none;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width : 800px) {
+
+  .carosel1 {
+    height : 800px;
+  }
+
+  .leftSide1 {
+    width : 100%;
+    height : 50%;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .rightSide1 {
+    height : 50%;
+    width : 100%;
+  }
+
+  .caro1 {
+    flex-direction: column;
+  }
+}

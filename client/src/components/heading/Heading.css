@@ -1,0 +1,34 @@
+.Heading {
+    width : 90%;
+    height : 15vh;
+    margin : auto;
+    display : flex;
+    align-items : center;
+    justify-content: space-between;
+}
+
+.heading {
+    font-size: 35px;
+    font-weight:600;
+    letter-spacing: -1.1px;
+    color : rgba(0, 0, 0, 0.699);
+}
+
+section {
+    font-size : 12px;
+    letter-spacing: 0.5px;
+}
+
+.AddReviewButton {
+    color : rgba(255 , 255 , 255 , 0.9);
+    background-color: rgb(21, 58, 91);
+    padding : 10px 20px;
+    border-radius: 2px;
+    border : 1px solid rgb(21, 58, 91);
+    transition: all 0.5s;
+}
+
+.AddReviewButton:hover {
+    background-color: white;
+    color : rgb(21, 58, 91)
+}

@@ -1,0 +1,292 @@
+.overlay1 {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.712);
+    width : 100%;
+    position: absolute;
+    z-index: 1;
+    height : 100vh;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.errorLabel {
+  text-align: center;
+  color : #ff0000d1;
+  display: none;
+}
+
+.OTPentry {
+  display : none;
+}
+
+.ConfPass {
+  display: none;
+}
+
+.cross {
+    position: absolute;
+    right : 20%;
+    top : 10%;
+}
+
+.crosses {
+    fill  :whitesmoke;
+    width : 30px;
+    height : 30px
+}
+
+.LoginSignUpForm {
+    width : 55%;
+    border-radius: 10px;
+    height : 80%;
+    background-color: white;
+    display : flex;
+    flex-direction: row;
+}
+
+.leftSide {
+    width : 50%;
+    height: 100%;
+    background-color: #0096FF;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.RightSide {
+    display : flex;
+    align-items: center;
+    flex-direction: column;
+    width : 100%;
+    height : 100%;
+}
+
+.Forgot {   
+    padding : 20px 40px;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    border : 1px solid rgba(0, 0, 0, 0.062);
+}
+
+.SignUp1 {
+    padding : 20px 40px;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    border : 1px solid rgba(0, 0, 0, 0.062);
+}
+
+.leftSideWrapper {
+    width : 90%;
+    margin : auto;
+    margin-top : 20%;
+}
+
+.para21 {
+    color : White;
+    font-weight: bold;
+    font-size : 32px;
+}
+
+.para22 {
+    margin-top: 20px;
+    font-size: 16px;
+    color : rgba(255, 255, 255, 0.815);
+}
+
+.RightSideWrapper {
+    width : 315px;
+    margin : auto;
+    height : 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.policies {
+    font-size : 10px;
+    margin-bottom : 25px;
+}
+
+.loginButton {
+    width : 100%;
+    padding : 15px 0px;
+    background-color : #0096FF;
+    color : white;
+    outline : none;
+    border : none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.forgotPassword {
+    margin : auto;
+    text-align: center;
+}
+
+.newTo {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.input-group {
+    position: relative;
+    margin: 40px 0 20px;
+  }
+  
+  input {
+    font-size: 18px;
+    padding: 10px 0px 10px 0px;
+    display: block;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #757575;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  .label {
+    color: #999;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+  
+  input:focus ~ label,
+  input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: #4285f4;
+  }
+  
+  .bar {
+    position: relative;
+    display:block;
+    width:300px;
+  }
+  
+  .bar:before,
+  .bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #4285f4;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+  
+  .bar:before {
+    left: 50%;
+  }
+  
+  .bar:after {
+    right: 50%;
+  }
+  
+  input:focus ~ .bar:before,
+  input:focus ~ .bar:after {
+    width: 50%;
+  }
+  
+  .highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+  }
+
+
+  
+  input:focus ~ .highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease;
+  }
+  
+  /* animations */
+  @-webkit-keyframes inputHighlighter {
+    from { background: #4285f4; }
+    to   { width: 0; background: transparent; }
+  }
+  @-moz-keyframes inputHighlighter {
+    from { background: #4285f4; }
+    to   { width: 0; background: transparent; }
+  }
+  @keyframes inputHighlighter {
+    from { background: #4285f4; }
+    to   { width: 0; background: transparent; }
+  }
+
+
+  @media screen and (max-width : 900px) {
+    .leftSide {
+      display: none;
+    }
+
+    .cross {
+      top : 11%;
+      right : 25%;
+      color : black;
+      z-index: 3;
+    }
+
+    .crosses {
+      fill : black;
+    }
+
+  }
+
+  @media screen and (max-width : 650px) {
+    .RightSide {
+      width : 100%;
+      height : 100vh;
+    }
+
+    .LoginSignUpForm {
+      width : 100%;
+      height: 100vh;
+      border-radius: 0px;
+    }
+
+    .overlay1 {
+      border-radius: 0px;
+    }
+
+    .cross {
+      top : 5%;
+      right : 5%;
+      color : black;
+      z-index: 3;
+    }
+
+    .crosses {
+      fill : black;
+    }
+
+    .newTo {
+      padding-bottom: 50px;
+    }
+    
+  }
+
+  .ForgotPass {
+    display : none;
+  }
+
+  .SignUp {
+    display : none;
+  }

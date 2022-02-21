@@ -1,0 +1,27 @@
+.AddToCartBuy {
+    display: flex;
+}
+
+.AddToCartBuyLeftSide {
+    width : 80%;
+}
+
+.wrapper451 {
+    width : 90%;
+    margin: auto;
+}
+
+.AddToCartBuyRightSide {
+    width : 20%;
+}
+
+.wrapper450 {
+    background-color: white; 
+    width : 90%;
+    height : 400px;
+    margin : auto;
+    position : sticky;
+    top : 100px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}

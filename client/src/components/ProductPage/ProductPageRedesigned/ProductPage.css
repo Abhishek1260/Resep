@@ -1,0 +1,249 @@
+.ProductPage {
+  height: 100vh;
+  width: 90%;
+  margin: auto;
+  /* background-color: rgba(255, 0, 0, 0.466); */
+}
+
+.none {
+  display: none;
+}
+
+.starICO {
+  width : 20px ;
+  height: 20px;
+  fill : limegreen;
+}
+
+.wishlistICO {
+  position: absolute;
+  top : 5px;
+  right : 5px;
+}
+
+.reviewsMain {
+  background-color: rgba(50, 205, 50, 0.2);
+  padding : 5px 10px;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color : limegreen;
+  border-radius: 5px;
+}
+
+.heart {
+  fill : rgba(0, 0, 0, 0.2);
+}
+
+.photo1 {
+  border-radius: 0px;
+}
+
+.top1 {
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+.wrapper9 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.NoReviewsMain {
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.image24 {
+  width: 60%;
+  height: 100%;
+  background-color: rgb(255, 146, 146);
+  position: relative;
+}
+
+.buyingButtons {
+  height: 100%;
+  width: 50%;
+  font-size: 15px;
+  border: none;
+  outline: none;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+}
+
+.shoppingSVG {
+  fill: rgb(21, 58, 91);
+}
+
+.AddToCart {
+  background-color: transparent;
+  height: 75px;
+  width: 100%;
+  border-radius: 3px;
+  border: 2px solid rgb(21, 58, 91);
+  transition: all 0.2s;
+}
+
+.descri {
+  color :rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+}
+
+
+.AddToCart:hover {
+  border: 2px solid rgba(0 , 0 , 0 , 0.3);
+}
+
+.circleTags {
+  width : 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: rgba(0 , 0 , 0 , 0.2);
+}
+
+.tags {
+  display: flex;
+  height : 30%;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  right : 0px ;
+  top : 50%;
+  transform: translateY(-50%);
+}
+
+.tag0 {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.cart {
+  font-size: 15px;
+  color: rgb(21, 58, 91);;
+}
+
+.buy {
+  color: white;
+  transition: 0.2s all;
+}
+
+.buySVG {
+  fill: white;
+  transition: 0.2s all;
+}
+
+.BuyNow {
+  height: 75px;
+  width: 100%;
+  transition: all 0.2s;
+  background-color: rgb(21, 58, 91);
+  border: none;
+  border-radius: 3px;
+  border: 2px solid rgb(21, 58, 91);
+}
+
+.BuyNow:hover {
+  background-color: white;
+}
+
+.BuyNow:hover .buy , .BuyNow:hover .buy .buySVG{
+  color: rgb(21, 58, 91);
+  fill :rgb(21, 58, 91)
+}
+
+.middle1 {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.sizedBox {
+  height: 60px;
+  width: 20px;
+}
+
+.middle2 {
+  width: 90%;
+}
+
+.image26 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.top2 {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper8 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 50px;
+  flex-direction: column;
+  height: 100%;
+  width : 40%;
+}
+
+.productNameMain {
+  font-size: 32px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.788);
+}
+
+.blue {
+  color: #0096ff;
+  font-size: 35px;
+}
+
+.price {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.condition {
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: limegreen;
+  background-color: rgba(50, 205, 50, 0.2);
+}
+
+@media screen and (max-width: 650px) {
+  .top2 {
+    display: flex;
+    flex-direction: column;
+    margin : 0px;
+  }
+
+  .image24 {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .top1 {
+    display: block;
+    height : auto;
+  }
+  .wrapper8 {
+    margin: 0px;
+  }
+
+  .image26 {
+    width : 100%;
+  }
+}

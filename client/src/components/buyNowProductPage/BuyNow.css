@@ -1,0 +1,106 @@
+.buyNow {
+    display: flex;
+}
+
+.ProceedToCheckoutdiv {
+    width : 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: rgb(21, 58, 91);
+    border : 1px solid rgb(21, 58, 91);
+    border-radius: 4px;
+    transition: 0.5s all;
+}
+
+.ProceedToCheckoutdiva {
+    padding : 15px 0px;
+    color  : white;
+    transition: 0.5s all;
+}
+
+.ProceedToCheckoutdiv:hover .ProceedToCheckoutdiva {
+    color :rgb(21, 58, 91)
+}
+
+.ProceedToCheckoutdiv:hover {
+    background-color: white;
+}
+
+.buyNowLeftSide {
+    width : 80%;
+}
+
+.BuyNowRightSide {
+    width : 20%;
+}
+
+.wrapper66 {
+    background-color: white;
+    width : 90%;
+    height : 400px;
+    margin : auto;
+    position : sticky;
+    top : 100px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.BuyNowRightSideTop {
+    height : 20%;
+    width : 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.wrapper67 {
+    width : 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin : auto;
+    color : rgba(0, 0, 0, 0.7);
+    font-size : 20px;
+    font-weight: bold;
+}
+
+.BuyNowRightSideMiddle {
+    height : 60%;
+    width : 100%;
+    
+}
+
+.BuyNowRightSideBottom {
+    height : 20%;
+    width : 100%;
+}
+
+.wrapper68 , .wrapper73{
+    height: 100%;
+    width : 90%;
+    border-bottom: 1px solid rgba(0 , 0 , 0 , 0.2);
+    margin : auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.content2 , .content1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper69 , .wrapper71 , .wrapper74 {
+    color : rgba(0, 0, 0, 0.8);
+    font-weight: bolder;
+}
+
+.wrapper70 , .wrapper72 , .wrapper75 {
+    color : rgba(0 , 0 , 0 , 0.5);
+    font-weight: bolder;
+}
+
+.wrapper78 {
+    width : 90%;
+    margin : auto;
+}
